@@ -6,11 +6,7 @@ BPM:
 Key:
 Mood:
 Hook idea:
-Verse direction:
-Drum pattern:
-Bass direction:
-Melody direction:
+Beat structure:
 Stem plan:
 Music video idea:
-Rights review: required
 Release status: blocked until owner approval

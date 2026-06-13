@@ -1,0 +1,1 @@
+const fs=require("fs");["docs/index.html","docs/assets/style.css","docs/assets/app.js","docs/.nojekyll","docs/robots.txt"].forEach(f=>{if(!fs.existsSync(f)){console.error("Missing "+f);process.exitCode=1}else console.log("OK "+f)});

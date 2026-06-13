@@ -1,0 +1,1 @@
+const fs=require("fs");fs.rmSync("docs",{recursive:true,force:true});fs.cpSync("public","docs",{recursive:true});fs.writeFileSync("docs/.nojekyll","");fs.writeFileSync("docs/robots.txt","User-agent: *\nDisallow: /\n");console.log("Built docs/ for GitHub Pages.");
